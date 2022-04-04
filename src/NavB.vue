@@ -1,6 +1,6 @@
 <template>
   <div class="card p-20 d-flex justify-content-center align-items-center">
-    <h1>La page B</h1>
+    <h1>Nav B</h1>
   </div>
 </template>
 

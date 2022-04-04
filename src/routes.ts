@@ -8,18 +8,11 @@ export const routes: RouteRecordRaw[] = [
     component: PageA,
   },
   {
-    path: '/a/:userId?',
+    path: '/a',
     component: PageA,
-    props: (to) => ({
-      id: to.params.userId,
-    }),
   },
   {
     path: '/b',
-    alias: ['/c', '/d'],
-    meta: {
-      title: 'Page de profil',
-    },
     component: PageB,
   },
 ];
